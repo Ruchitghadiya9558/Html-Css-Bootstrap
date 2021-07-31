@@ -1,0 +1,27 @@
+@keyframes changecolor{
+	0%{ background-color: red;}
+	10%{background-color: blue;}
+	20%{ background-color: yellow;}
+	30%{background-color: orange;}
+	40%{ background-color: pink;}
+	50%{background-color: green;}
+	60%{ background-color: red;}
+	70%{background-color: blue;}
+	80%{ background-color: yellow;}
+	90%{background-color: orange;}
+	100%{ background-color: pink;}
+	
+}	
+
+h2{
+	animation-name: changecolor;
+	border: 1px solid black;
+	animation-duration: 4s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+	border: none;
+	font-size: 50px;
+	 text-shadow: 2px 2px #ff0000;
+}

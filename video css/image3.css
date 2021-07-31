@@ -1,0 +1,188 @@
+ body{
+ 	border: 2px solid black;
+ 	height: 2000px;
+
+ }
+
+ li:first-child{
+ 	color: red;
+ }
+ li:last-child{
+ 	color: blue;
+ }
+ li:nth-child(3){
+ 	color: green;
+ }
+ li:nth-child(even){
+ 	color: orange;
+ }
+ p{
+ 	border: 1px solid blue;
+ 	width: 70%;
+ }
+ p::first-line{
+ 	color: red;
+ }
+ h1{
+ 	width: 70%;
+ 	border: 1px solid black;
+ }
+ h1::first-line{
+ 	color: blue;
+ }
+ ::selection{
+ 	color: red;
+ 	background-color: yellow;
+ }
+ .main{
+ 	border: 1px solid black;
+ 	height: 200px;
+ 	width: 700px;
+ 	padding: 50px;
+ }
+ .first{
+ 	border: 2px solid black;
+ 	height: 200px;
+ 	width: 200px;
+ 	background-color: red;
+ 	display: inline-block;
+ }
+ .second{
+	border: 2px solid black;
+ 	height: 200px;
+ 	width: 200px;
+ 	background-color: green;
+ 	display: inline-block;
+
+ }
+ .therd{
+	border: 2px solid black;
+ 	height: 200px;
+ 	width: 200px;
+ 	background-color: yellow;
+ 	display: inline-block;
+
+ }
+ .head{
+ 	border: 2px solid red;
+ 	height: 400px;
+ 	width: 700px;
+ 	padding: 50px;
+ 	top: 100px;
+ 	left:50px;
+ 	
+ 	
+ }
+ .one{
+ 	border: 2px solid black;
+ 	height:200px;
+ 	width: 200px;
+ 	background-color: orange;
+ 	display: inline-block;
+ 	position: relative;
+
+ }
+ .two{
+ 	border: 2px solid black;
+ 	height:200px;
+ 	width: 200px;
+ 	background-color:red;
+ 	display: inline-block;
+ 	position: relative;
+ 	top: 200px;
+ 	down:20px;
+ }
+ .three{
+ 	border: 2px solid black;
+ 	height:200px;
+ 	width: 200px;
+ 	background-color: blue;
+ 	display: inline-block;
+ }
+.main1{
+	border: 2px solid red;
+	height: 400px;
+	width: 500px;
+	margin: 20px;
+	padding: 30px;
+	float: left;
+
+}
+.one1{
+ 	border: 2px solid black;
+ 	height:200px;
+ 	width: 200px;
+ 	background-color: orange;
+ 	display: inline-block;
+ 	position: relative;
+ 	z-index: 1
+
+
+ }
+ .two2{
+ 	border: 2px solid black;
+ 	height:200px;
+ 	width: 200px;
+ 	background-color:red;
+ 	display: inline-block;
+ 	position: relative;
+ 	top:100px;
+ 	left:-100px;
+ 	z-index: 2
+ 
+ }
+ .three3{
+ 	border: 2px solid black;
+ 	height:200px;
+ 	width: 200px;
+ 	background-color: blue;
+ 	display: inline-block;
+ 	position: relative;
+ 	top:0px;
+ 	right: -200px;
+ 	z-index: 3
+ }
+ .main2{
+	border: 2px solid red;
+	height: 400px;
+	width: 500px;
+	margin: 20px;
+	padding: 30px;
+	float: left;
+
+}
+.one11{
+ 	border: 2px solid black;
+ 	height:200px;
+ 	width: 200px;
+ 	background-color: orange;
+ 	display: inline-block;
+ 	position: relative;
+ 	z-index: 3
+
+
+ }
+ .two22{
+ 	border: 2px solid black;
+ 	height:200px;
+ 	width: 200px;
+ 	background-color:red;
+ 	display: inline-block;
+ 	position: relative;
+ 	top:100px;
+ 	left:-100px;
+ 	z-index: 2
+ 
+ }
+ .three33{
+ 	border: 2px solid black;
+ 	height:200px;
+ 	width: 200px;
+ 	background-color: blue;
+ 	display: inline-block;
+ 	position: relative;
+ 	top:0px;
+ 	right: -200px;
+ 	z-index: 1
+ }
+

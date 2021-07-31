@@ -1,0 +1,21 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+.image{
+	
+	width: 260px;
+	float: left;
+	margin-right: 50px;
+	white-space: pre-line;
+}
+.image img{
+	border-radius: 10px;
+	height: 200px;
+	width: 300px;
+	border-radius: 15px;
+}
+
+
+

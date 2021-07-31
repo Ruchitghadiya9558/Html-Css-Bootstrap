@@ -1,0 +1,71 @@
+
+.menu{
+	border: 1px solid black;
+	height: 250px;
+	width: 60%;
+	padding-top: 10px;
+	padding-left: 10px;
+	background-color: yellow;
+}
+.first{
+	
+	width: 600px;
+	background-color: white;
+}
+
+.row1{
+	display: flex;
+	background-color: white;
+}
+.row2{
+	display: flex;
+	background-color: white;
+
+}
+.second{
+	width: 600px;
+	height: 25px;
+	background-color: white;
+	
+}
+.row3{
+	display: flex;
+	background-color: white;
+}
+.therd{
+	width: 600px;
+	height: 25px;
+	background-color: white;
+	
+}
+.row4{
+	display: flex;
+	background-color: white;
+}
+.four{
+	width: 600px;
+	height: 25px;
+	background-color: white;
+	
+}
+.row5{
+	display: flex;
+	background-color: white;
+}
+.five{
+	width: 600px;
+	height: 25px;
+	background-color: white;
+	
+}
+.row6{
+	display: flex;
+	background-color: white;
+}
+.six{
+	width: 600px;
+	height: 25px;
+	background-color: white;
+	
+}
+

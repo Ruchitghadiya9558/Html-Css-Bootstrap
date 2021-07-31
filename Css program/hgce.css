@@ -1,0 +1,100 @@
+.header{
+	border: 1px solid black;
+	background-color: black;
+	height: 120px;
+}
+.header img{
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+.header p{
+	position: relative;
+	color: blue;
+	left: 140px;
+	top: -82px;
+}
+.menu{
+	border: 1px solid black;
+	height: 60px;
+	background-color:blue;
+}
+.menu ul li{
+	display: inline;
+	padding-left: 15px;
+}
+.menu ul li a{
+	text-decoration-line: none;
+	color: white;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+	
+}
+.menu ul li a:hover{
+		color: black;
+        background-color: white;
+        padding-left: 10px;
+
+}
+.contect{
+	border: 1px solid black;
+	height: 300px;
+}
+.contect img{
+	width:98%;
+	height: 300px;
+}
+.image{
+
+	border: 1px solid black;
+	height:300px; 
+}
+.image img{
+	width: 500px;
+	height: 300px;
+	float: left;
+}
+.page{
+	
+	background-color: red;
+	border: 1px solid black;
+	float: left;
+	margin-bottom:  200px;
+}
+.page h1{
+	color: blue;
+}
+.page p{
+	color: white;
+}
+.contener-left{
+	border: 1px solid black;
+	width: 20%;
+	height: 300px;
+	background-color:green;
+	float: left;
+
+}
+.contener-center{
+	border: 1px solid black;
+	width: 59%;
+	height: 400px;
+	background-color:orange;
+	float: left;
+
+}
+.contener-center img{
+	height: 150px;
+	width: 150px;
+}
+.contener-center p{
+	overflow: scroll;
+}
+.contener-right{
+	border: 1px solid black;
+	width: 20%;
+	height: 300px;
+	background-color:green;
+	float: left;
+}
